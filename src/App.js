@@ -31,7 +31,7 @@ const App = () => {
             height={2}
             color='#f11946'
             progress={progress}
-          // onLoaderFinished={() => setProgress(0)}
+          
           />
           <Routes>
             <Route exact path="/" element={<News setProgress={setProgress} apiKey={apiKey} key={'general'} pageSize={pageSize} country="in" category="general" />} />
